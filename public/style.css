@@ -1,0 +1,39 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;   
+  position: relative;
+  padding-bottom: 70px;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+}
+
+#div_search {
+  display: flex;
+}
+
+.invalid_stock {
+  display: none;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+} 
+
+
+
+
